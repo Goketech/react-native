@@ -9,7 +9,7 @@ export default function FeedScreen() {
   return (
     <View style={styles.container}>
       <Text>Welcome to your feed</Text>
-      <Button onPress={() => navigation.navigate('Profile')}>
+      <Button onPress={() => navigation.navigate("Profile")}>
         View your Profile
       </Button>
       <Text>More coming soon!</Text>

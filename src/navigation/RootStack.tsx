@@ -5,7 +5,7 @@ import ProfileScreen from '../screens/Profile';
 
 const Stack = createNativeStackNavigator();
 
-export default function HomeStack() {
+export default function RootStack() {
   return (
     <Stack.Navigator>
       <Stack.Screen
