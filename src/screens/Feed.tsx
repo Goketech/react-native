@@ -4,7 +4,7 @@ import {useNavigation} from '@react-navigation/native';
 import {Button} from '@react-navigation/elements';
 
 export default function FeedScreen() {
-  const navigation = useNavigation();
+  const navigation = useNavigation<any>();
 
   return (
     <View style={styles.container}>
