@@ -1,14 +1,10 @@
 import * as React from 'react';
 import {View, Text, StyleSheet} from 'react-native';
-import {useNavigation} from '@react-navigation/native';
-import {Button} from '@react-navigation/elements';
 
-export default function ProfileScreen() {
-  const navigation = useNavigation();
-
+export default function WalletScreen() {
   return (
     <View style={styles.container}>
-      <Text>Profile</Text>
+      <Text>Wallet Screen</Text>
     </View>
   );
 }
