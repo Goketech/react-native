@@ -45,6 +45,7 @@ export function HomeTabs() {
               style={styles.logo}
             />
           ),
+          headerShown: false
         }}
       />
       <Tab.Screen
@@ -58,6 +59,7 @@ export function HomeTabs() {
               style={styles.logo}
             />
           ),
+          headerShown: false
         }}
       />
       <Tab.Screen
@@ -71,6 +73,7 @@ export function HomeTabs() {
               style={styles.logo}
             />
           ),
+          headerShown: false
         }}
       />
       <Tab.Screen
@@ -84,6 +87,7 @@ export function HomeTabs() {
               style={styles.logo}
             />
           ),
+          headerShown: false
         }}
       />
     </Tab.Navigator>
